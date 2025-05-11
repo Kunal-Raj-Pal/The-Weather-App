@@ -29,7 +29,6 @@ function App() {
       const res = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${api_key}`
       );
-      console.log(res.data);
 
       const usefulData = {
         city: res.data.name,
@@ -77,8 +76,6 @@ function App() {
       fetchWeather();
     }
   }, [city]);
-
-  console.log(city);
 
   return (
     <>
