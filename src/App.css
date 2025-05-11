@@ -1,0 +1,16 @@
+.main-1{
+    background-color: rgb(20, 20, 31);
+}
+
+.main{
+    background-color: rgb(20, 20, 31);
+}
+
+.main .col{
+    background-color: rgb(65, 65, 80);
+    border-radius: .9em;
+}
+
+.footer{
+    background-color: rgb(197, 197, 213);
+}
