@@ -1,12 +1,67 @@
-# React + Vite
+# 🌦️ Animated Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and animated weather application built with **React**, **Vite**, **Tailwind CSS**, and **React Bootstrap**. It fetches real-time weather data using the **OpenWeatherMap API** and displays current conditions, hourly forecast, and a 15-hours forecast with a sleek, modern UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Click here to view the live app](https://the-weather-app-twdw.onrender.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🌍 Search weather by city
+- 📍 Auto-detect current location weather
+- 🕒 Hourly and 15-hours forecast
+- 🎨 Fully animated and responsive UI
+- 🔍 Debounced search input
+- 📊 Weather icons and animated visuals
+- 🧭 Displays temperature, humidity and wind
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend**: React + Vite
+- **Styling**: Tailwind CSS + React Bootstrap
+- **Animation**: shadcn/ui + Lottie
+- **API**: OpenWeatherMap API
+
+---
+
+## 📦 Getting Started Locally
+
+```bash
+git clone https://github.com/your-username/animated-weather-app.git
+cd animated-weather-app
+npm install
+```
+
+
+
+📍 How to Use
+1. Only type a city name in the search bar.
+2. View current and upcoming weather details.
+
+
+
+📌 Roadmap (Upcoming Features)
+- 🌗 Dark mode toggle
+- 🌍 Multi-language support
+- 🗺️ Weather map view
+- 🌍 Detects user location automatically
+- 🧭 Shows weather forecast based on your position
+
+  
+
+👨‍💻 Author  
+  Kunal Raj Pal - A full-stack web developer passionate about building creative and useful projects.
+
+
+
+📬 Connect with me:
+[LinkedIn](https://www.linkedin.com/in/kunal-raj-pal/)
+
+
